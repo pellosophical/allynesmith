@@ -340,6 +340,13 @@ img {
   background-repeat: no-repeat;
 }
 
+.project-cover.backyear {
+  background-image: url('../images/btyu-finished.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .project-cover.tigertail {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/tigertail-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/tigertail-cover.jpg');
@@ -489,7 +496,7 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/jengu-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/jengu-cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 100%;
+  background-size: cover;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
@@ -502,31 +509,31 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/snl_cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/snl_cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 100%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.tall.snl:hover {
-  background-size: 110%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/snl_cover.jpg');
 }
 
 .project-cover--link.tall.props {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/prop-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/prop-cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 115%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.tall.props:hover {
-  background-size: 125%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/prop-cover.jpg');
 }
 
 .project-cover--link.seppos {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/seppos_setting.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/seppos_setting.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 120%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
@@ -542,7 +549,7 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/panda-bamboo-fixed.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bark-cover-dog-dads.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 120%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
@@ -558,7 +565,7 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/bark-cover_1.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bark-cover_1.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 125%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
@@ -566,23 +573,23 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/bark-cover_1.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bark-cover_1.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 140%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.bside {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/helloflo-s-first-moon-party.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/helloflo-s-first-moon-party.jpeg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/tend_mirror.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/tend_mirror.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 133%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.bside:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/helloflo-s-first-moon-party.jpeg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/helloflo-s-first-moon-party.jpeg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/tend_mirror.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/tend_mirror.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 150%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
@@ -590,48 +597,60 @@ img {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/evil-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/evil-cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 120%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.evil:hover {
-  background-size: 130%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/evil-cover.jpg');
+}
+
+.project-cover--link.backyear {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/btyu-finished.png');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/btyu-finished.png');
+  background-position: 0px 0px, 50% 50%;
+  background-size: cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.project-cover--link.backyear:hover {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/btyu-finished.png');
 }
 
 .project-cover--link.tigertail {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/tigertail-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/tigertail-cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 125%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.tigertail:hover {
-  background-size: 135%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/tigertail-cover.jpg');
 }
 
 .project-cover--link.bark {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/bark-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/bark-cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 115%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.bark:hover {
-  background-size: 125%;
+  background-size: 200%;
 }
 
 .project-cover--link.odoki {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/odoki-cover.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/odoki-cover.jpg');
   background-position: 0px 0px, 50% 50%;
-  background-size: auto, 115%;
+  background-size: cover;
   background-repeat: repeat, no-repeat;
 }
 
 .project-cover--link.odoki:hover {
-  background-size: 125%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/odoki-cover.jpg');
 }
 
 .heading-2 {
